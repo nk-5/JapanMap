@@ -24,7 +24,8 @@ class ViewController: UIViewController {
         
         //5.URL作って、表示させる！
 //        let urlString = "https://google.co.jp/"
-        let urlString = "http://dotinstall.com/"
+//        let urlString = "http://dotinstall.com/"
+        let urlString = "http://keigo-dev.com/"
         let encodedUrlString = urlString.stringByAddingPercentEncodingWithAllowedCharacters( NSCharacterSet.URLQueryAllowedCharacterSet() )
         
         let url = NSURL(string:encodedUrlString!)
